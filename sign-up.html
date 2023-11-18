@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Sign Up | InterConnectNBCC</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<meta charset="utf-8">
+
+</head>
+
+<body>
+
+	<header>
+	
+		<a href="index.html">
+		<img src="images/logo.png" class="logo" alt="InterConnectNBCC.com's Logo">
+		</a>
+		
+		<ul id="menu">
+		
+			<li><a href="index.html">Home</a></li>
+			<li><a href="resources.html">Resources</a></li>
+			<li><a href="events.html">Events</a></li>
+			<li><a href="sign-up.html" class="active">Sign Up</a></li>
+			<li><a href="login.html">Log In</a></li>
+			
+		</ul>
+	
+	</header>
+	
+	<main>
+	
+		<div id="welcome">
+	
+			<h1 class="h1_welcome">Sign Up</h1>
+			
+			<p class="welcome" style="padding-bottom: 1%;">Welcome to our community! We're excited to have you on board. By signing up, you'll gain access to exclusive content, networking opportunities, and more. Whether you're a student, professional, or just interested in technology, there's a place for you here. So let's get started and join the community today!</p>
+			
+		</div>
+		
+		<div id="form">
+		
+			<form name="Consultation" method="POST" action="#">
+			
+			<label>First Name</label> <br>
+			
+			<input type="text" name="First_Name" maxlength="200" required="required"> <br>
+			
+			<label>Last Name</label> <br>
+			
+			<input type="text" name="Last_Name" maxlength="200" required="required"> <br>
+			
+			<label>Email Address</label> <br>
+			
+			<input type="email" name="Email_Address" required="required"> <br>
+			
+			<label>Password</label> <br>
+			
+			<input type="password" name="Password" maxlength="200" required="required"> <br>
+			
+			<label>Gender</label> <br>
+			
+			<select name="Gender" id="Gender" required>
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			</select> <br>
+			
+			<label>Country</label> <br>
+			
+			<select name="Country" id="Country" required>
+			<option value="argentina">Argentina</option>
+			<option value="brazil">Brazil</option>			
+			<option value="mexico">Mexico</option>
+			</select> <br>
+			
+			<input type="reset" id="btnReset" class="btn reset">
+			
+			<input type="submit" id="btnSubmit" class="btn_form" value="Send">
+			
+			</form>
+		
+		</div>
+	
+	</main>
+	
+	<footer>
+	
+		InterConnectNBCC.com &copy; 2023 <br>
+		Created by students, for students!<br>
+		<a href="terms.html">Terms & Conditions</a> | <a href="privacy.html">Privacy Policy</a>
+	
+	</footer>
+
+</body>
+
+</html>

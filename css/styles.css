@@ -1,0 +1,761 @@
+@font-face {
+	
+	font-family: "Albert Sans";
+	src: url("../fonts/AlbertSans.ttf");
+	
+}
+
+@font-face {
+	
+	font-family: "Raleway ExtraBold";
+	src: url("../fonts/Raleway-ExtraBold.ttf");
+	
+}
+
+* {
+	
+	font-family: "Albert Sans", Arial, sans-serif;
+	margin: 0;
+	
+}
+
+body {
+	
+	background: #f9f9f9;
+	
+}
+
+header {
+	
+	width: 80%;
+	margin: 0;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%);
+	background: white;
+	position: sticky;
+	overflow: hidden;
+	
+}
+
+.logo { max-height: 96px; }
+
+#menu {
+	
+	float: right;
+	padding-top: 40px;
+	
+}
+
+#menu {
+	
+	list-style-type: none;
+	
+}
+
+#menu li {
+	
+	display: inline;
+	margin-left: 20px;
+	font-size: 1.1em;
+	
+}
+
+#menu li a {
+	
+	color: black;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 600;
+	padding: 10px;
+	/*transition: background 0.4s;*/
+	
+}
+
+.active {
+	
+	border-bottom: 6px solid #000;
+	
+}
+
+#menu li a:hover {
+	
+	background: #0f6e90;
+	/*transition: background 0.4s;*/
+	color: white;
+	
+}
+
+a {
+	
+	color: #0f6e90;
+	
+}
+
+footer a:hover {
+	
+	color: black;
+	text-decoration: none;
+	
+}
+
+main {
+	
+	width: 100%;	
+	/*padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background: #fcfcfc;*/
+	
+}
+
+.maintenance {
+	
+	height: 100%;
+	padding-top: 140px;
+	padding-bottom: 260px;
+
+}
+
+.maintenance img {
+	
+	margin-top: 20px;
+	
+}
+
+h1 {
+	
+	text-align: center;
+	line-height: 1.3em;
+	font-size: 2.4em;
+	
+}
+
+p {
+	
+	font-size: 1.1em;
+	
+}
+
+#welcome {
+	
+	padding-top: 1%;
+	padding-bottom: 1%;
+	
+}
+
+.h1_welcome { margin-top: 2%; }
+
+.welcome { 
+
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-bottom: 2%;
+
+}
+
+#profile {
+	
+	/*margin-top: 106px;*/
+	
+}
+
+.resources {
+	
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/resources.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 33.3%;
+	float: left;
+	
+}
+
+.connect {
+	
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/connect.jpg);
+	background-position: center left;
+	background-size: cover;
+	width: 33.3%;
+	margin-left: 33.35%;
+	
+}
+
+.events {
+	
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/events.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 33.3%;
+	float: right;
+	
+	
+}
+
+.resources, .connect, .events {
+	
+	background-color: rgba(0, 0, 0, 0.1);
+	height: 628px;
+	
+}
+
+.resources a, .connect a, .events a {
+	
+}
+
+.resources h2, .connect h2, .events h2 {
+	
+	text-align: center;
+	background: url("../images/bg_text2.png");
+	color: white;
+	background-size: 180px 60px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	text-transform: uppercase;
+	font-family: Raleway ExtraBold;
+	transition: font-size 0.4s;
+	transition: background-color 0.4s;
+	
+}
+
+.resources h2:hover, .connect h2:hover, .events h2:hover {
+	
+	/*font-size: 1.6em;
+	transition: font-size 0.4s;
+	background-size: 190px 70px;
+	transition: background-size 0.4s;*/
+	transition: background-color 0.4s;
+	background-color: rgba(0, 0, 0, 0.3);
+	
+}
+
+footer {
+	
+	width: 100%;
+	margin: 0;
+	/*padding-left: 10%;
+	padding-right: 10%;*/
+	padding-top: 2%;
+	padding-bottom: 2%;
+	/*box-shadow: 0px -10px 15px 3px rgba(0,0,0,0.1);*/
+	text-align: center;
+	border-top: 1px solid #f2f2f2;
+	background: white;
+	font-size: .9em;
+
+}
+
+footer a {
+	
+	font-weight: bold;
+	
+}
+
+#announcements {
+	
+	width: 90%;
+	margin: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	/*padding-top: 2%;
+	padding-bottom: 2%;*/
+	margin-right: auto;
+	margin-left: auto;
+	/*background: #fcfcfc;*/
+	padding-top: 0%;
+	padding-bottom: 4%;
+	
+}
+
+#announcements .text {
+	
+	padding-top: 4%;
+	padding-bottom: 4%;
+	
+}
+
+#announcements .text h3 {
+	
+	font-size: 1.8em;
+	
+}
+
+#announcements .text p {
+	
+	margin-top: 20px;
+	margin-bottom: 40px;
+	
+}
+
+#announcements .text h3, #announcements .text p, #announcements .text a {
+	
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+#announcements .learn_more {
+	
+	margin-top: 10px;
+	padding: 20px;
+	background: #0f6e90;
+	color: white;
+	font-family: Raleway ExtraBold;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: background 0.4s;
+	
+}
+
+#announcements .learn_more:hover {
+	
+	background: #7b8e18;
+	transition: background 0.4s;
+	
+}
+
+.announcement {
+	
+	overflow: hidden;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	vertical-align: middle;
+	background: white;
+	max-width: 1400px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: #fff;
+	
+	
+}
+
+#announcements .left img {
+	
+	width: 50%;
+	float: left;
+	
+}
+
+#announcements .left .text {
+	
+	width: 50%;
+	text-align: left;
+	float: right;
+	
+}
+
+#announcements .right img {
+	
+	width: 50%;
+	float: right;
+	
+}
+
+#announcements .right .text {
+	
+	width: 50%;
+	text-align: right !important;
+	float: left;
+	
+}
+
+/* Students Page */
+
+#main_students {
+	
+	width: 90%;
+	max-width: 1400px;
+	margin-right: auto;
+	margin-left: auto;
+	/*background: #fcfcfc;*/
+	
+}
+
+#students_content {
+	
+	width: 70%;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	
+}
+
+#students_facts {
+	
+	overflow: hidden;
+	width: 100%;
+	text-align: center;
+	
+}
+
+#students_facts h3 {
+	
+	background: url(../images/bg_text.png);
+	width: 180px;
+	height: 60px;
+	background-position: center;
+	background-size: 180px 40px;
+	background-repeat: no-repeat;
+	font-family: Raleway ExtraBold;
+	color: white;
+	text-align: center;
+	padding-top: 35px;
+	
+}
+
+#students_facts .fact, #students_facts .fact_left {
+	
+	display: flex;
+	
+}
+
+#students_facts .fact, #students_facts .fact_left {
+	
+	width: 100%;
+	overflow: hidden;
+	background: white;
+	margin-bottom: 4%;
+}
+
+#students_facts .fact .text, #students_facts .fact_left .text {
+	
+	width: 60%;
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	
+}
+
+#students_facts .fact .text {
+	
+	float: left;
+	text-align: left;
+
+}
+
+#students_facts .img {
+	
+	width: 40%;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center;
+	
+}
+
+#students_facts .fact .img {
+	
+	float: right;
+
+	
+}
+
+#students_facts .fact_left .text {
+	
+	float: right;
+	text-align: right;
+	
+}
+
+#students_facts .fact_left .text h3 {
+	
+	margin-right: 0;
+	margin-left: auto;
+	
+}
+
+#students_facts .fact_left .img {
+	
+	float: left;
+	
+}
+
+.read_more {
+	
+	padding: 20px;
+	background: #000;
+	border:0;
+	color: white;
+	font-family: Raleway ExtraBold;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	transition: background 0.4s;
+	text-decoration: none;
+	line-height: 4em;
+	
+}
+
+.read_more:hover {
+	
+	background: #7b8e18;
+	transition: background 0.4s;
+	
+}
+
+.attend {
+	
+	padding: 16px;
+	background: #0f6e90;
+	border:0;
+	color: white;
+	font-family: Raleway ExtraBold;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	transition: background 0.4s;
+	text-decoration: none;
+	line-height: 4em;
+	
+}
+
+.attend:hover {
+	
+	background: black;
+	transition: background 0.4s;
+	
+}
+
+/* Students Page - Sidebar */
+
+#sidebar_students {
+	
+	width: 25%;
+	float: right;
+	padding-left: 2.5%;
+	padding-right: 0;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	
+}
+
+/*#sidebar_students nav {
+	
+	box-shadow: 0 3px 10px 0 rgb(0 0 0 / 04%);
+	
+}*/
+
+#sidebar_students nav h4 {
+	
+	text-align: center;
+	background: url("../images/text_bg.png");
+	background-color: #0f6e90;
+	font-family: Raleway ExtraBold;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	color: white;
+	padding: 20px;
+}
+
+#sidebar_students nav ul {
+	
+	list-style-type: none;
+	background: white;
+	margin-bottom: 20px;
+	padding: 20px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+
+/* The following code (lines 513-519) that adds the bullet points in black I got it from W3school.com */
+
+#sidebar_students nav ul li::before {
+  content: "\2023";
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#sidebar_students nav ul li {
+	
+	margin-bottom: 8px;
+	
+}
+
+#sidebar_students nav ul a:hover {
+	
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+
+/* Immigration Consultation Page */
+
+#form {
+	
+	overflow: hidden;
+	width: 80%;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 4%;
+	max-width: 1200px;
+	
+}
+
+#form form {
+	
+	float: right;
+	width: 40%;
+	background: #222;
+	color: white;
+	font-weight: bold;
+	padding: 5%;
+	padding-top: 4.8%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	
+}
+
+form {  }
+
+.form_column_2 {
+	
+	float: left;
+	width: 50%;
+	background: url("../images/team.jpg");
+	background-size: cover;
+	background-position: right;
+	flex: 1;
+	
+}
+
+.form_column_2 img {
+	
+	width: 100%;
+	
+}
+
+input, select {
+	
+	padding: 4%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: white;
+	border: 0;
+	border-bottom: 4px solid #0f6e90;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 80%;
+	transition: border-bottom-color .6s;
+	
+}
+
+input:hover, input:focus, select:hover, select:focus {
+	
+	border-bottom-color: #7b8e18;
+	transition: border-bottom-color .6s;
+}
+
+select { width: 88%; }
+
+textarea {
+	
+	padding: 4%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 100px;
+	margin-top: 10px;
+	border: 0;
+	border-bottom: 4px solid #0f6e90;
+	/*margin-bottom: 10px;*/
+	width: 80%;
+	
+}
+
+.btn {
+	
+	padding: 20px;
+	width: 43.5%;
+	background: #0f6e90;
+	border:0;
+	color: white;
+	font-family: Raleway ExtraBold;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	transition: background 0.4s;
+	
+}
+
+.btn_form {
+	
+	padding: 20px;
+	width: 43.5%;
+	background: #0f6e90;
+	border:0;
+	color: white;
+	font-family: Raleway ExtraBold;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	transition: background 0.4s;
+	
+}
+
+.btn:hover {
+	
+	background: black;
+	transition: background 0.4s;
+	
+}
+
+.btn_form:hover {
+	
+	background: #7b8e18;
+	transition: background 0.4s;
+	
+}
+
+.reset {
+	
+	background: white;
+	color: black;
+	transition: background 0.4s;
+
+}
+
+.reset:hover {
+	
+	color: white;
+	background: black;
+	transition: background 0.4s;
+	
+}
+
+/* Maintenance Page */
+
+.maintenance {
+	
+	text-align: center;
+	
+}
+
+.maintenance img {
+	
+	width: 128px;
+	
+}
+
+/* Add shadow to containers or not? */
+
+#students_facts .fact, #students_facts .fact_left, .announcement, #sidebar_students nav {
+	
+	box-shadow: 0 3px 10px 0 rgb(0 0 0 / 04%);
+	
+}
+
+#profile a { text-decoration: none !important; }
